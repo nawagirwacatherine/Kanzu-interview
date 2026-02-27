@@ -24,7 +24,7 @@ const ctaButton = document.querySelector(".hero button");
 const closeBtn = document.querySelector(".close");
 
 ctaButton.addEventListener("click", function() {
-  modal.style.display = "block";
+  modal.style.display = "flex";
 });
 
 closeBtn.addEventListener("click", function() {
